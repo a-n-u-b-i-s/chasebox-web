@@ -5,7 +5,6 @@
 [![Language][language-shield]][language-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
-[![Dependencies][dependencies-shield]][dependencies-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Build Status][build-shield]][build-url]
 
@@ -28,15 +27,14 @@
 ## Contributing
 Please take a look at our [contributing][contributors-url] guidelines if you're interested in helping!
 
-[language-shield]:    https://www.google.com
-[contributors-shield]:https://www.google.com
-[issues-shield]:      https://www.google.com
-[dependencies-shield]:https://www.google.com
-[stars-shield]:       https://www.google.com
-[build-shield]:       https://www.google.com
-[language-url]:       https://www.google.com
-[contributors-url]:   https://www.google.com
-[issues-url]:         https://www.google.com
-[dependencies-url]:   https://www.google.com
-[stars-url]:          https://www.google.com
-[build-url]:          https://www.google.com
+[language-shield]: https://img.shields.io/github/languages/top/a-n-u-b-i-s/chasebox?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/a-n-u-b-i-s/chasebox?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/a-n-u-b-i-s/chasebox?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/a-n-u-b-i-s/chasebox?style=flat-square
+[build-shield]: https://img.shields.io/travis/a-n-u-b-i-s/chasebox?style=flat-square
+
+[language-url]: https://www.google.com
+[contributors-url]: https://github.com/a-n-u-b-i-s/chasebox/blob/master/CONTRIBUTING.md
+[issues-url]: https://github.com/a-n-u-b-i-s/chasebox/issues
+[stars-url]: https://github.com/a-n-u-b-i-s/chasebox/
+[build-url]: https://www.chasebox.com/
