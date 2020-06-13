@@ -21,6 +21,8 @@
 
 ## Color Scheme
 
+<p align="center"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/color_scheme.png"></p>
+
 - Black: #1C1C1C
 - White: #F8F7FF
 - Green: #42E2B8
