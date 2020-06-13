@@ -18,6 +18,20 @@
 
 <br>
 
+
+## Color Scheme
+
+- Black: #1C1C1C
+- White: #F8F7FF
+- Green: #42E2B8
+- Red: #F05365
+- Yellow: #FDCD49
+- Main: #473BF0
+- Accent 1: #6665DD
+- Accent 2: #AFAEEE
+
+<br>
+
 ## Contributing
 Please take a look at our [contributing][contributors-url] guidelines if you're interested in helping!
 
