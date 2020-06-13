@@ -23,15 +23,6 @@
 
 <p align="left"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/color_scheme.png"></p>
 
-- Red: 		#F05365
-- Yellow: 	#FDCD49
-- Green: 	#42E2B8
-- White: 	#F8F7FF
-- Accent 2: #AFAEEE
-- Accent 1: #6665DD
-- Main: 	#473BF0
-- Black: 	#1C1C1C
-
 <br>
 
 ## Contributing
