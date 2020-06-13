@@ -31,4 +31,4 @@
 <br>
 
 ## Contributing
-Please take a look at our [contributing][contributors-url] guidelines if you're interested in helping!
+Please take a look at our [contributing](https://github.com/a-n-u-b-i-s/chasebox/blob/master/CONTRIBUTING.md) guidelines if you're interested in helping!
