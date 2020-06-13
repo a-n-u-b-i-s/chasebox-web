@@ -1,5 +1,5 @@
-<p align="center"><img width=12.5% src="https://www.github.com/a-n-u-b-i-s/chasebox/blob/master/media/chasbox_logo.png"></p>
-<p align="center"><img width=60% src="https://www.github.com/a-n-u-b-i-s/chasebox/blob/master/media/chasbox_text.png"></p>
+<p align="center"><img width=12.5% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_logo.png"></p>
+<p align="center"><img width=60% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_text.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Language][language-shield]][language-url]
