@@ -1,5 +1,5 @@
 <p align="center"><img width=12.5% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_logo.png"></p>
-<p align="center"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_text.png"></p>
+<p align="center"><img width=50% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_text.png"></p>
 
 <p align="center">
 	<a href="https://www.google.com" alt="Language">
