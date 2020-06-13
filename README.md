@@ -1,4 +1,4 @@
-<p align="center"><img width=15% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_logo.png"></p>
+<p align="center"><img width=12.5% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_logo.png"></p>
 <p align="center"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_text.png"></p>
 
 <p align="center">
