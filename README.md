@@ -16,8 +16,6 @@
 
 ## Purpose
 
-<p align="center"><img width=95% src=""></p>
-
 <br>
 
 ## Contributing
