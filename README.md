@@ -1,12 +1,13 @@
 <p align="center"><img width=15% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_logo.png"></p>
 <p align="center"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/chasebox_text.png"></p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<p align="center">
 [![Language][language-shield]][language-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Build Status][build-shield]][build-url]
+</p>
 
 ## Table of Contents
 
