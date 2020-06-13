@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+<!-- ## [Unreleased]
 
 ## [Verison #] - 2020-06-12
 ### Added
@@ -11,3 +11,4 @@ All notable changes to this project will be documented in this file.
 ### Removed
 
 ### Fixed
+ -->
