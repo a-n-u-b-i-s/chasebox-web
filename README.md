@@ -23,10 +23,17 @@
 
 <br>
 
+## Features
+
+| Name | Gherkin | Status |
+|:-----|:--------|:------:|
+|      |         |        |
+
+<br>
 
 ## Color Scheme
 
-<p align="left"><img width=55% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/color_scheme.png"></p>
+<p align="left"><img width=35% src="https://github.com/a-n-u-b-i-s/chasebox/raw/master/media/color_scheme.png"></p>
 
 <br>
 
