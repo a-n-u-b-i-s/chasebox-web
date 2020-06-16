@@ -1,7 +1,14 @@
-os: osx
 language: node_js
 node_js:
   - 14
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+cache:
+  npm: true
+  directories:
+    - ~/.cache
 before_install: cd web
 install: 
 - yarn install --production=false
