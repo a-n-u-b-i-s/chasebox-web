@@ -13,13 +13,11 @@ addons:
       - libgconf-2-4
 before_install: cd web
 install:
-- yarn install --production=false
+- yarn
 - node node_modules/node-sass/scripts/install.js
-- yarn add cypress-cucumber-preprocessor
+- SASS_PATH=node_modules:src
 script:
-- node node_modules/node-sass/scripts/install.js
-- yarn start &
-- ./node_modules/.bin/cypress run
+- yarn test
 - PUBLIC_URL="https://s3.amazonaws.com/chasebox.com/"
 - yarn build
 deploy:

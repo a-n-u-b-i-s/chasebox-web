@@ -17,12 +17,17 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "start-server-and-test": "^1.11.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
+    "cypress": "^4.8.0",
+    "cypress-cucumber-preprocessor": "^2.5.0",
+    "webpack": "^4.43.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "cy:run": "./node_modules/.bin/cypress run",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
     "test": "start-server-and-test 'yarn start' http://localhost:3000 'yarn cy:run'",
     "eject": "react-scripts eject"
   },
@@ -40,12 +45,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@bahmutov/add-typescript-to-cypress": "^2.1.2",
-    "cypress": "^4.8.0",
-    "cypress-cucumber-preprocessor": "^2.5.0",
-    "webpack": "^4.43.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
