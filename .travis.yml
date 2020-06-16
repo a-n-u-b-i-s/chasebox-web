@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - 14
-before_script: cd web
+before_install: cd web
 install: yarn add
 script:
 - yarn test
@@ -16,4 +16,4 @@ deploy:
   acl: public_read
   region: us-east-1
   local_dir: web/build
-  skip_cleanup: true
+  cleanup: false
