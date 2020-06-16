@@ -2,10 +2,12 @@ language: node_js
 node_js:
   - 14
 before_install: cd web
-install: yarn install --production=false
-script:
+install: 
+- yarn install --production=false
 - node node_modules/node-sass/scripts/install.js
+- ./node_modules/.bin/cypress install
 - yarn add cypress-cucumber-preprocessor
+script:
 - yarn test
 - PUBLIC_URL="https://s3.amazonaws.com/chasebox.com/"
 - yarn build
