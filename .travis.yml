@@ -1,24 +1,25 @@
-os: osx
 language: node_js
 node_js:
   - 14
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - ~/.npm
+    - ~/.cache
 addons:
   apt:
     packages:
       - libgconf-2-4
-cache:
-  npm: true
-  directories:
-    - ~/.cache
 before_install: cd web
-install: 
-- npm install -g yarn
+install:
 - yarn install --production=false
 - node node_modules/node-sass/scripts/install.js
-- ./node_modules/.bin/cypress install
 - yarn add cypress-cucumber-preprocessor
 script:
-- yarn test
+- node node_modules/node-sass/scripts/install.js
+- yarn start &
+- ./node_modules/.bin/cypress run
 - PUBLIC_URL="https://s3.amazonaws.com/chasebox.com/"
 - yarn build
 deploy:
