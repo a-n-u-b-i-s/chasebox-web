@@ -19,5 +19,5 @@ deploy:
   bucket: "chasebox.com"
   acl: public_read
   region: us-east-1
-  local_dir: build
-  cleanup: false
+  local_dir: web/build
+  skip_cleanup: true
