@@ -5,6 +5,7 @@ before_install: cd web
 install: yarn install --production=false
 script:
 - node node_modules/node-sass/scripts/install.js
+- yarn add cypress-cucumber-preprocessor
 - yarn test
 - PUBLIC_URL="https://s3.amazonaws.com/chasebox.com/"
 - yarn build
