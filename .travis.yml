@@ -1,3 +1,4 @@
+os: osx
 language: node_js
 node_js:
   - 14
@@ -11,6 +12,7 @@ cache:
     - ~/.cache
 before_install: cd web
 install: 
+- npm install -g yarn
 - yarn install --production=false
 - node node_modules/node-sass/scripts/install.js
 - ./node_modules/.bin/cypress install
