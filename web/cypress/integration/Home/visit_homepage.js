@@ -5,7 +5,7 @@
 import { Given, Then, And } from '../../../node_modules/cypress-cucumber-preprocessor/steps';
  
 Given('I am on the homepage', () => {
-  cy.visit('localhost:3000/');
+	cy.visit('localhost:3000/');
 });
 
 Then('I should see a page with the title {string}', (title) => {
