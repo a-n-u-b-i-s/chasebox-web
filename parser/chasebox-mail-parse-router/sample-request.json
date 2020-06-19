@@ -1,0 +1,38 @@
+{
+	"Records": [
+		{
+			"eventVersion": "2.1",
+			"eventSource": "aws:s3",
+			"awsRegion": "us-east-1",
+			"eventTime": "2020-06-18T21:30:02.571Z",
+			"eventName": "ObjectCreated:Put",
+			"userIdentity": {
+				"principalId": "AWS:AIDAIE26RTG3F45XIHQFI"
+			},
+			"requestParameters": {
+				"sourceIPAddress": "10.123.58.149"
+			},
+			"responseElements": {
+				"x-amz-request-id": "78079805659C760F",
+				"x-amz-id-2": "SOU+X2CAH41uTU9wAkZwdiI7l/QXKvN9U6D7NzOKh73/xfmVm7Le8bnlkeKuHY43LZiBfmhRW19xh6u1hMXOAovamcTcbhRP"
+			},
+			"s3": {
+				"s3SchemaVersion": "1.0",
+				"configurationId": "249eeb13-67e7-4394-8f7d-c07e5abb553d",
+				"bucket": {
+					"name": "chasebox-emails-general",
+					"ownerIdentity": {
+						"principalId": "APSYBININDLW3"
+					},
+					"arn": "arn:aws:s3:::chasebox-emails-general"
+				},
+				"object": {
+					"key": "qv71835ulrbk3stqq7m1pta123orvub4msd8hdg1",
+					"size": 35930,
+					"eTag": "d37de1a3f5c4182c2c2fb242fc7df708",
+					"sequencer": "005EEBDCDF1A32E148"
+				}
+			}
+		}
+	]
+}

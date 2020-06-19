@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.700.0",
+    "axios": "^0.19.2",
+    "mailparser": "^2.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "gulp": "^4.0.2",
+    "gulp-lambda-deploy": "^0.3.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-zip": "^5.0.1",
+    "typescript": "^3.9.5"
+  }
+}
