@@ -1,42 +1,5 @@
 declare type Callback = (error: any, sucess: any) => void;
 
-declare interface S3Record {
-	s3: {
-		object: {
-			key: string
-		},
-		bucket: {
-			name: string
-		}
-	}
-}
-
-declare interface S3Event {
-	Records: Array<S3Record>
-}
-
-declare interface S3Object {
-	Body: Buffer
-}
-
-declare type BigParserRow = any;
-
-declare type BigParserRows = Array<BigParserRow>;
-
-declare interface BigParserResponseData {
-	authId?: string,
-	rows?: BigParserRows
-	totalRowCount?: number
-}
-
-declare interface AxiosResponse {
-	data: BigParserResponseData,
-	status: number,
-	statusText: string,
-	headers: object,
-
-}
-
 declare interface EmailAttachment {
 	type?: string,
 	content?: Buffer,
@@ -114,20 +77,4 @@ declare interface QueryObject {
 		sendRowIdsInResponse?: boolean,
 		showColumnNamesInResponse?: boolean,
 	}
-}
-
-declare interface Rule {
-	name: string,
-	filter: (row: BigParserRow, email: Email) => boolean
-}
-
-declare interface Hook {
-	name: string,
-	action: (url: string, email: Email) => any
-}
-
-declare interface Endpoint {
-	type: string,
-	url: string,
-	action: (url: string, email: Email) => any
 }

@@ -1,18 +1,18 @@
 /// <reference path="types.d.ts"/>
 /*
- Workflow:
- - S3 Write Event Triggers Main
- 	- Setup
-	 	- Login to BigParser
-	 	- Get S3 Bucket & Key from S3 Event
-	 	- Read Raw Email from S3 Bucket
-	 	- Parse Raw Email into Email Object
- 	- Route
-	 	- Query BigParser for Routing Rules
-	 	- Filter Down to actionable Rules
-	 	- Create List of Endpoints off of Active Hooks
- 		- Send Email to Hooks
- */
+Workflow:
+- S3 Write Event Triggers Main Funciton
+	- Setup
+		- Login to BigParser
+		- Get S3 Bucket & Key from S3 Event
+		- Read Raw Email from S3 Bucket
+		- Parse Raw Email into Email Object
+	- Route
+		- Query BigParser for Routing Rules
+		- Filter Down to actionable Rules
+		- Create List of Endpoints off of Active Hooks
+		- Send Email to Hooks
+*/
 
 // Imports
 const AWS = require('aws-sdk');
@@ -41,7 +41,7 @@ const BigParserAPIv2 = axios.create({
 const RULES: Array<Rule> = [{
 	name: "Mail Subject Contains",
 	filter: (row: BigParserRow, email: Email): boolean => {
-		return email.subject.includes(row["Mail Subject Contains"])
+		return email.subject.includes(row["Mail Subject Contains"]);
 	}
 }];
 
